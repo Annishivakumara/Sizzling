@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
             Row(
               children: [
                 Icon(Icons.location_on),
-                Text('Ittigi Bengolre',
+                Text('Ittigi Hospete',
                 style: TextStyle(
                   fontSize: 20.0,
                   color: Colors.black,
