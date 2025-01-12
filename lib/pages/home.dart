@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
                  border: InputBorder.none,
                  suffixIcon: Icon(Icons.search),
                  contentPadding: EdgeInsets.only(left: 10,top: 10,),
-                  hintText: 'Search Event...',
+                  hintText: 'Search Events...',
                   hintStyle: TextStyle(
                     fontSize: 20.0,
                     color: Colors.black,
