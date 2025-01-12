@@ -60,8 +60,9 @@ class _HomeState extends State<Home> {
              SizedBox(height: 20.0,),
              
              Container(
-              padding: EdgeInsets.only(left: 20),
+              padding: EdgeInsets.only(left: 20.0),
               width: MediaQuery.of(context).size.width,
+
               decoration: BoxDecoration(
                 color: const Color.fromARGB(255, 137, 255, 216),
                 borderRadius: BorderRadius.circular(20)),
@@ -70,8 +71,8 @@ class _HomeState extends State<Home> {
                 decoration: InputDecoration(
                  border: InputBorder.none,
                  suffixIcon: Icon(Icons.search),
-                 contentPadding: EdgeInsets.only(left: 20,top: 10,),
-                  hintText: 'Search...',
+                 contentPadding: EdgeInsets.only(left: 10,top: 10,),
+                  hintText: 'Search Event...',
                   hintStyle: TextStyle(
                     fontSize: 20.0,
                     color: Colors.black,
@@ -79,6 +80,17 @@ class _HomeState extends State<Home> {
                   ),
                 ),
                ),
+             ),
+             ListView(
+              children: [
+                Container(
+                   child: Column(
+                    children: [
+                    
+                    ],
+                   ),
+                ),
+              ],
              ),
           ],
         ),
